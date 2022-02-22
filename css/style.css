@@ -1,0 +1,56 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    border-bottom: 2px solid #000;
+    padding:1vh;
+}
+ 
+
+ 
+header #logo img{
+    height: 8vh;
+}
+
+header #temp img{
+    height: 8vh;
+    
+}
+
+main{
+    height: 80vh;
+    border-bottom: 2px solid #000;
+}
+
+main div{
+    display:flex;
+    width: 90vw;
+    margin:0 auto;
+    padding:3vh;
+}
+
+main div div{
+    padding:1vw;
+    margin-left:2vw;
+    background-color: aqua;
+}
+
+main div div input{
+    width: 8vw;
+    height: 5vh;
+}
+footer{
+    height: 5vh;
+}
+footer p{
+    text-align:center;
+}
